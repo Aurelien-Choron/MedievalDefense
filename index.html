@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medieval Defense</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231a1410'/%3E%3Cpath d='M6 24V12l4 3 6-6 6 6 4-3v12z' fill='%23c8a165'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #14100c; --panel: #201a14; --panel-2: #2b2318; --line: #3d3225;
+    --ink: #f0e6d6; --muted: #a2937c;
+    --gold: #e8c15a; --wood: #b07a45; --stone: #9aa3ad; --danger: #c9503f;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: var(--bg); color: var(--ink);
+    font: 13px/1.5 ui-sans-serif, system-ui, "Segoe UI", sans-serif; }
+  button { font: inherit; color: inherit; }
+  /* The sky: the renderer clears to transparent and this shows through. */
+  canvas { display: block;
+    background: radial-gradient(ellipse 120% 95% at 50% 30%, #dff5ff 0%, #9ad8f0 42%, #4f9fd0 100%); }
+
+  .panel { position: absolute; background: rgba(32,26,20,.94); border: 1px solid var(--line);
+    border-radius: 10px; backdrop-filter: blur(8px); }
+
+  /* --- loading --- */
+  #boot { position: absolute; inset: 0; display: grid; place-content: center; gap: 14px;
+    text-align: center; background: var(--bg); z-index: 50; }
+  #boot h1 { margin: 0; font-size: 28px; letter-spacing: .12em; font-weight: 600; }
+  #boot .tagline { letter-spacing: .18em; font-size: 10px; text-transform: uppercase; color: var(--muted); margin: 0; }
+  #boot .bar { width: 320px; height: 4px; background: var(--panel-2); border-radius: 2px; overflow: hidden; }
+  #boot .bar i { display: block; height: 100%; width: 0; background: var(--gold); transition: width .15s; }
+  #boot p { margin: 0; color: var(--muted); }
+
+  /* --- resource coins, shared by the bar and the cost chips --- */
+  .gold > i, .chip.gold i { background: radial-gradient(circle at 35% 30%, #fff0b0, #e3ad2f 60%, #a87414); }
+  .wood > i, .chip.wood i { background: radial-gradient(circle at 35% 30%, #f0bf86, #a8703f 60%, #6b4222); }
+  .stone > i, .chip.stone i { background: radial-gradient(circle at 35% 30%, #f4f7fa, #9aa5b1 60%, #5f6975); }
+
+  /* --- resource bar --- */
+  #res { top: 12px; left: 12px; padding: 8px 14px; display: flex; gap: 18px; align-items: center; }
+  #res .stat { display: flex; gap: 8px; align-items: center; }
+  #res .stat > i { width: 18px; height: 18px; border-radius: 50%; box-shadow: inset 0 -2px 0 rgba(0,0,0,.25); }
+  #res .stat b { display: block; font-size: 16px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+  #res .stat span { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .08em; }
+  #res .gold b { color: var(--gold); } #res .wood b { color: #d59a5f; } #res .stone b { color: #c6ced6; }
+
+  /* --- perf readout: the draw-call budget is a design constraint, so it stays visible --- */
+  #perf { top: 12px; right: 12px; padding: 8px 12px; color: var(--muted); font-size: 11px;
+    font-variant-numeric: tabular-nums; }
+  #perf b { color: var(--ink); font-weight: 600; }
+  #perf .over { color: var(--danger); }
+
+  /* --- controls hint --- */
+  #keys { top: 12px; left: 50%; transform: translateX(-50%); padding: 6px 12px; color: var(--muted);
+    font-size: 11px; white-space: nowrap; }
+  #keys b { color: var(--ink); }
+
+  /* --- cost chips --- */
+  .chip { display: inline-flex; align-items: center; gap: 4px; font-weight: 700;
+    font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .chip i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+  .chip + .chip { margin-left: 7px; }
+  .chip.short { color: #ff6f5a; }
+  .chip.free { color: var(--muted); font-weight: 600; }
+
+  /* --- build menu --- */
+  #build-menu { position: absolute; left: 50%; bottom: 12px; transform: translateX(-50%); display: flex; gap: 6px;
+    padding: 7px; background: rgba(32,26,20,.93); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: 0 10px 28px rgba(0,0,0,.35); }
+  #build-menu .sep { width: 1px; align-self: stretch; margin: 8px 2px; background: var(--line); }
+  #build-menu .card { position: relative; width: 80px; padding: 5px 3px 6px; display: flex; flex-direction: column;
+    align-items: center; gap: 1px; background: linear-gradient(#45372a, #2c2319); border: 2px solid #5b4733;
+    border-radius: 10px; cursor: pointer; transition: transform .08s, border-color .08s, box-shadow .08s; }
+  #build-menu .card:hover { transform: translateY(-3px); border-color: #b08a55; }
+  #build-menu .card.active { border-color: var(--gold);
+    box-shadow: 0 0 0 2px rgba(232,193,90,.3), 0 0 18px rgba(232,193,90,.4); }
+  #build-menu .card img, #build-menu .card .noicon { width: 54px; height: 54px;
+    filter: drop-shadow(0 3px 2px rgba(0,0,0,.35)); }
+  #build-menu .card .name { font-size: 10.5px; font-weight: 600; line-height: 1.15; text-align: center;
+    min-height: 25px; display: flex; align-items: center; }
+  #build-menu .card .cost { font-size: 11px; }
+  #build-menu .card kbd { position: absolute; top: 4px; left: 6px; font: 700 10px/1 ui-monospace, Consolas, monospace;
+    color: var(--muted); }
+  #build-menu .card.short img { opacity: .7; }
+  #build-menu .card.locked { cursor: not-allowed; }
+  #build-menu .card.locked img { filter: grayscale(1) brightness(.55); }
+  #build-menu .card.locked .cost { display: none; }
+  #build-menu .card .lock { display: none; font-size: 9.5px; line-height: 1.2; color: #d9a45a; text-align: center; }
+  #build-menu .card.locked .lock { display: block; }
+  #build-menu .tip { display: none; position: absolute; bottom: calc(100% + 12px); left: 50%; transform: translateX(-50%);
+    width: 220px; padding: 10px 12px; background: rgba(24,19,14,.97); border: 1px solid var(--line); border-radius: 10px;
+    text-align: left; pointer-events: none; box-shadow: 0 8px 20px rgba(0,0,0,.35); }
+  #build-menu .card:hover .tip { display: block; }
+  #build-menu .tip b { font-size: 13px; }
+  #build-menu .tip p { margin: 3px 0 8px; color: var(--muted); font-size: 11.5px; line-height: 1.35; }
+  #build-menu .tip .stats { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: 11px; color: var(--muted); }
+
+  /* --- bars floating over buildings at work --- */
+  #bars { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+  .job { position: absolute; left: 0; top: 0; will-change: transform; }
+  .job > div { transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .job span { font: 700 11px/1 ui-sans-serif, system-ui, sans-serif; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.85); }
+  .job .track { width: 58px; height: 9px; border-radius: 5px; background: rgba(20,16,12,.8);
+    border: 1px solid rgba(0,0,0,.7); overflow: hidden; }
+  .job .fill { height: 100%; width: 0; background: linear-gradient(#a8f37f, #4cb238); }
+  .job.upgrade .fill { background: linear-gradient(#ffe38a, #dea52b); }
+  .job.compact span { display: none; }
+  .job.compact .track { width: 24px; height: 6px; }
+
+  /* --- selected building --- */
+  #selection { right: 12px; bottom: 12px; width: 290px; padding: 12px 14px; max-height: calc(100vh - 80px); overflow-y: auto; }
+  /* Where the build menu and the panel would overlap, the panel steps up above it. */
+  @media (max-width: 1540px) { #selection { bottom: 124px; max-height: calc(100vh - 190px); } }
+  #selection header { display: flex; gap: 10px; align-items: center; }
+  #selection header img { width: 52px; height: 52px; }
+  #selection h2 { margin: 0; font-size: 15px; line-height: 1.2; }
+  #selection .sub { color: var(--muted); font-size: 11px; line-height: 1.35; }
+  #selection .close { margin-left: auto; align-self: flex-start; background: none; border: 0; color: var(--muted);
+    font-size: 20px; line-height: 1; cursor: pointer; }
+  #selection .status { margin: 10px 0 5px; font-size: 12px; }
+  #selection .arms { margin-top: 8px; font-size: 11px; color: #e8b06a; }
+  #build-menu .tip .arms { flex-basis: 100%; color: #e8b06a; }
+  #selection .hp { height: 7px; border-radius: 4px; background: #15110d; overflow: hidden; }
+  #selection .hp i { display: block; height: 100%; background: linear-gradient(#8fe36b, #3f9e2f); }
+  #selection .option { margin-top: 10px; padding: 9px 10px; border-radius: 10px; background: var(--panel-2);
+    border: 1px solid var(--line); }
+  #selection .option .label { font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  #selection .option p { margin: 2px 0 0; font-size: 11.5px; line-height: 1.35; color: var(--muted); }
+  #selection .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 12px; }
+  #selection .time { color: var(--muted); }
+  #selection .actions { display: flex; gap: 6px; margin-top: 8px; }
+  #selection .actions button { flex: 1; padding: 7px 8px; border: 0; border-radius: 8px; font-weight: 700;
+    font-size: 12px; cursor: pointer; }
+  #selection .actions button:hover:not(:disabled) { filter: brightness(1.1); }
+  #selection .upgrade { color: #2a1d08; background: linear-gradient(#ffd976, #e0a92e); box-shadow: 0 3px 0 #9c6f15; }
+  #selection .upgrade.line { background: linear-gradient(#fff0c2, #eac363); box-shadow: 0 3px 0 #a98231; }
+  #selection .secondary { color: var(--ink); background: #4d3f30; box-shadow: 0 3px 0 #2c231a; }
+  #selection .danger { color: #ffd9d2; background: #74332a; box-shadow: 0 3px 0 #411b15; }
+  #selection .actions button:disabled { color: var(--muted); background: #3d3226; box-shadow: none; cursor: default; }
+  #selection .chip i { width: 9px; height: 9px; }
+
+  /* --- one-line messages --- */
+  #toast { position: absolute; left: 50%; bottom: 140px; transform: translate(-50%, 8px); padding: 8px 16px;
+    border-radius: 999px; background: rgba(32,26,20,.95); border: 1px solid var(--line); color: #ffd0c4; font-weight: 600;
+    opacity: 0; transition: opacity .15s, transform .15s; pointer-events: none; white-space: nowrap; }
+  #toast.show { opacity: 1; transform: translate(-50%, 0); }
+</style>
+</head>
+<body>
+  <div id="boot">
+    <h1>MEDIEVAL DEFENSE</h1>
+    <p class="tagline">Hold the keep</p>
+    <p id="boot-msg">Loading&hellip;</p>
+    <div class="bar"><i id="boot-bar"></i></div>
+  </div>
+
+  <div id="bars"></div>
+  <div id="res" class="panel" hidden></div>
+  <div id="perf" class="panel" hidden></div>
+  <div id="keys" class="panel" hidden>
+    <b>WASD / ZQSD</b> / <b>arrows</b> / <b>drag</b> pan &middot; <b>scroll</b> zoom &middot; <b>1</b>&ndash;<b>0</b> build &middot; <b>R</b> turn the building &middot; <b>Esc</b> cancel
+  </div>
+  <div id="build-menu" hidden></div>
+  <div id="selection" class="panel" hidden></div>
+  <div id="toast"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+node_modules/
+dist/
+shot.png
+docs/shots/
+
+# Extracted from assets-src/*.zip by `npm run extract` — reproducible, not versioned.
+public/assets/kenney/
+docs/previews/
+
+# Kits Kenney (CC0). Volumineux et retéléchargeables depuis kenney.nl :
+# voir « Getting started » dans le README.
+assets-src/
+
+# Notes de travail internes, en français : passation, brief et inventaire des
+# assets. Elles restent sur le disque et hors du dépôt public.
+CLAUDE.md
+docs/brief.md
+docs/assets.md

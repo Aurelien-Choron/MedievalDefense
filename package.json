@@ -1,0 +1,32 @@
+{
+  "name": "medieval-defense",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Castle defense: hold a single keep against medieval siege waves while mining, logging and upgrading your walls.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "extract": "node tools/extract-assets.mjs",
+    "build:assets": "node tools/build-manifest.mjs",
+    "build:map": "node tools/gen-map.mjs",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "smoke": "node tools/smoke.mjs",
+    "check:controls": "node tools/check-controls.mjs",
+    "check:build": "node tools/check-build.mjs",
+    "check": "npm run typecheck && npm test && npm run smoke && npm run check:controls && npm run check:build",
+    "sheets": "node tools/contact-sheet.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "adm-zip": "^0.5.16",
+    "puppeteer-core": "^23.11.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

@@ -1,0 +1,6106 @@
+{
+ "tile": 1,
+ "kits": {
+  "castle": {
+   "bridge-draw": {
+    "size": [
+     1.002,
+     0.1,
+     0.831
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "bridge-straight-pillar": {
+    "size": [
+     0.93,
+     1.176,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "bridge-straight": {
+    "size": [
+     0.93,
+     1.176,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "door": {
+    "size": [
+     0.15,
+     0.605,
+     0.359
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "flag-banner-long": {
+    "size": [
+     0.04,
+     2.17,
+     0.63
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "flag-banner-short": {
+    "size": [
+     0.04,
+     0.78,
+     0.63
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "flag-pennant": {
+    "size": [
+     0.106,
+     0.866,
+     0.574
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "flag-wide": {
+    "size": [
+     0.106,
+     0.866,
+     0.547
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "flag": {
+    "size": [
+     0.106,
+     0.866,
+     0.432
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "gate": {
+    "size": [
+     0.152,
+     0.91,
+     0.662
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "ground-hills": {
+    "size": [
+     1,
+     0.288,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "ground": {
+    "size": [
+     1,
+     0,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "metal-gate": {
+    "size": [
+     0.071,
+     0.73,
+     0.695
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "rocks-large": {
+    "size": [
+     1.201,
+     0.5,
+     1.348
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "rocks-small": {
+    "size": [
+     1.03,
+     0.5,
+     1.105
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "siege-ballista-demolished": {
+    "size": [
+     1.754,
+     0.51,
+     1.554
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "siege-ballista": {
+    "size": [
+     1.63,
+     0.91,
+     1.198
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "siege-catapult-demolished": {
+    "size": [
+     1.678,
+     0.321,
+     1.669
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "siege-catapult": {
+    "size": [
+     1.735,
+     1.33,
+     1.21
+    ],
+    "base": -0.149,
+    "meshes": 6
+   },
+   "siege-ram-demolished": {
+    "size": [
+     2.079,
+     0.723,
+     1.647
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "siege-ram": {
+    "size": [
+     2.087,
+     1.184,
+     1
+    ],
+    "base": 0,
+    "meshes": 8
+   },
+   "siege-tower-demolished": {
+    "size": [
+     2.173,
+     2.097,
+     1.846
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "siege-tower": {
+    "size": [
+     1.966,
+     2.68,
+     1.21
+    ],
+    "base": 0,
+    "meshes": 5
+   },
+   "siege-trebuchet-demolished": {
+    "size": [
+     1.935,
+     0.31,
+     2.097
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "siege-trebuchet": {
+    "size": [
+     1.851,
+     1.959,
+     1.258
+    ],
+    "base": 0,
+    "meshes": 10
+   },
+   "stairs-stone-square": {
+    "size": [
+     0.233,
+     0.675,
+     0.819
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-stone": {
+    "size": [
+     0.233,
+     0.675,
+     0.819
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-base": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-hexagon-base": {
+    "size": [
+     0.9,
+     1.31,
+     0.779
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-hexagon-mid": {
+    "size": [
+     0.952,
+     0.46,
+     0.825
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-hexagon-roof-secondary": {
+    "size": [
+     0.976,
+     0.754,
+     0.846
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-hexagon-roof": {
+    "size": [
+     0.976,
+     0.83,
+     0.846
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-hexagon-top-wood": {
+    "size": [
+     0.864,
+     0.46,
+     0.748
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-hexagon-top": {
+    "size": [
+     0.864,
+     0.13,
+     0.748
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-slant-roof": {
+    "size": [
+     1.17,
+     2.14,
+     1.137
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-arch": {
+    "size": [
+     0.93,
+     1.01,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-base-border": {
+    "size": [
+     1,
+     0.45,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-base-color": {
+    "size": [
+     1,
+     1.01,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-base": {
+    "size": [
+     1,
+     1.01,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-mid-color": {
+    "size": [
+     0.93,
+     0.202,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-mid-door": {
+    "size": [
+     0.93,
+     1.01,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-mid-open-simple": {
+    "size": [
+     0.93,
+     0.878,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-mid-open": {
+    "size": [
+     0.93,
+     1.01,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-mid-windows": {
+    "size": [
+     0.93,
+     1.01,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-mid": {
+    "size": [
+     0.93,
+     1.01,
+     0.93
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-roof": {
+    "size": [
+     1,
+     2.01,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-top-color": {
+    "size": [
+     1,
+     0.38,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-top-roof-high-windows": {
+    "size": [
+     1,
+     1.08,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-top-roof-high": {
+    "size": [
+     1,
+     1.35,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-top-roof-rounded": {
+    "size": [
+     1,
+     0.95,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-top-roof": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square-top": {
+    "size": [
+     1,
+     0.3,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-square": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-top": {
+    "size": [
+     1,
+     0.13,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-large": {
+    "size": [
+     0.889,
+     1.849,
+     0.89
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-log": {
+    "size": [
+     0.249,
+     0.277,
+     1
+    ],
+    "base": -0.106,
+    "meshes": 1
+   },
+   "tree-small": {
+    "size": [
+     0.738,
+     1.349,
+     0.72
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-trunk": {
+    "size": [
+     0.396,
+     0.375,
+     0.343
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-half-tower": {
+    "size": [
+     1.5,
+     1.44,
+     1.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-half": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-slant": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-doorway": {
+    "size": [
+     0.5,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-half-modular": {
+    "size": [
+     0.605,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-half": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow-corner": {
+    "size": [
+     0.5,
+     1.31,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow-gate": {
+    "size": [
+     0.63,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow-stairs-rail": {
+    "size": [
+     0.995,
+     1.448,
+     1.034
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow-stairs": {
+    "size": [
+     0.965,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow-wood-fence": {
+    "size": [
+     1.05,
+     1.45,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow-wood": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-narrow": {
+    "size": [
+     0.5,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-pillar": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-stud": {
+    "size": [
+     0.27,
+     1.11,
+     0.167
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-to-narrow": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall": {
+    "size": [
+     1,
+     1.31,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   }
+  },
+  "town": {
+   "balcony-wall-fence": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "balcony-wall": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "banner-green": {
+    "size": [
+     0.05,
+     0.839,
+     0.5
+    ],
+    "base": 0.161,
+    "meshes": 1
+   },
+   "banner-red": {
+    "size": [
+     0.05,
+     0.839,
+     0.5
+    ],
+    "base": 0.161,
+    "meshes": 1
+   },
+   "blade": {
+    "size": [
+     0.111,
+     2,
+     0.43
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "cart-high": {
+    "size": [
+     0.893,
+     0.861,
+     1.39
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "cart": {
+    "size": [
+     0.893,
+     0.536,
+     1.34
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "chimney-base": {
+    "size": [
+     0.344,
+     1,
+     0.52
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "chimney-top": {
+    "size": [
+     0.252,
+     0.625,
+     0.34
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "chimney": {
+    "size": [
+     0.212,
+     1,
+     0.34
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "fence-broken": {
+    "size": [
+     0.255,
+     0.38,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "fence-curved": {
+    "size": [
+     1,
+     0.38,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "fence-gate": {
+    "size": [
+     0.075,
+     0.38,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fence": {
+    "size": [
+     0.075,
+     0.38,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "fountain-center": {
+    "size": [
+     1,
+     0.14,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-corner-inner-square": {
+    "size": [
+     1,
+     0.28,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-corner-inner": {
+    "size": [
+     1,
+     0.28,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-corner": {
+    "size": [
+     1,
+     0.28,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-curved": {
+    "size": [
+     1,
+     0.28,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-edge": {
+    "size": [
+     1,
+     0.28,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-round-detail": {
+    "size": [
+     2,
+     0.48,
+     2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-round": {
+    "size": [
+     2,
+     0.28,
+     2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-square-detail": {
+    "size": [
+     2,
+     0.48,
+     2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fountain-square": {
+    "size": [
+     2,
+     0.455,
+     2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "hedge-curved": {
+    "size": [
+     1,
+     0.25,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "hedge-gate": {
+    "size": [
+     0.25,
+     0.25,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "hedge-large-curved": {
+    "size": [
+     1,
+     0.6,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "hedge-large-gate": {
+    "size": [
+     0.4,
+     0.6,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "hedge-large": {
+    "size": [
+     0.4,
+     0.6,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "hedge": {
+    "size": [
+     0.25,
+     0.25,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "lantern": {
+    "size": [
+     0.216,
+     1.556,
+     0.224
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "overhang": {
+    "size": [
+     0.285,
+     0.33,
+     1
+    ],
+    "base": 0.67,
+    "meshes": 1
+   },
+   "pillar-stone": {
+    "size": [
+     0.16,
+     1,
+     0.16
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "pillar-wood": {
+    "size": [
+     0.16,
+     1,
+     0.16
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "planks-half": {
+    "size": [
+     0.5,
+     0.06,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "planks-opening": {
+    "size": [
+     1,
+     0.06,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "planks": {
+    "size": [
+     1,
+     0.06,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "poles-horizontal": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "poles": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-bend": {
+    "size": [
+     3,
+     0.05,
+     3
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-corner-inner": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-corner": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-curb-end": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-curb": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-edge-slope": {
+    "size": [
+     1,
+     0.25,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-edge": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road-slope": {
+    "size": [
+     1,
+     0.225,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "road": {
+    "size": [
+     1,
+     0.025,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "rock-large": {
+    "size": [
+     1.67,
+     1.163,
+     1.549
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "rock-small": {
+    "size": [
+     0.998,
+     1.02,
+     1.326
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "rock-wide": {
+    "size": [
+     1.094,
+     1.02,
+     1.567
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-corner-inner": {
+    "size": [
+     1,
+     0.626,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-corner-round": {
+    "size": [
+     1.067,
+     0.648,
+     1.067
+    ],
+    "base": -0.022,
+    "meshes": 1
+   },
+   "roof-corner": {
+    "size": [
+     1.067,
+     0.648,
+     1.067
+    ],
+    "base": -0.022,
+    "meshes": 1
+   },
+   "roof-flat": {
+    "size": [
+     1,
+     0.126,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-gable-detail": {
+    "size": [
+     1.1,
+     0.677,
+     1.212
+    ],
+    "base": -0.035,
+    "meshes": 1
+   },
+   "roof-gable-end": {
+    "size": [
+     1.085,
+     0.571,
+     1.071
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-gable-top": {
+    "size": [
+     1,
+     0.376,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-gable": {
+    "size": [
+     1.1,
+     0.571,
+     1.071
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-high-corner-round": {
+    "size": [
+     1.071,
+     1.176,
+     1.071
+    ],
+    "base": -0.035,
+    "meshes": 1
+   },
+   "roof-high-corner": {
+    "size": [
+     1.071,
+     1.176,
+     1.071
+    ],
+    "base": -0.035,
+    "meshes": 1
+   },
+   "roof-high-cornerinner": {
+    "size": [
+     1,
+     1.141,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-high-flat": {
+    "size": [
+     1,
+     0.141,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-high-gable-detail": {
+    "size": [
+     1.1,
+     1.313,
+     1.268
+    ],
+    "base": -0.089,
+    "meshes": 1
+   },
+   "roof-high-gable-end": {
+    "size": [
+     1.118,
+     1.157,
+     1.134
+    ],
+    "base": -0.045,
+    "meshes": 1
+   },
+   "roof-high-gable-top": {
+    "size": [
+     1,
+     0.641,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-high-gable": {
+    "size": [
+     1.1,
+     1.157,
+     1.134
+    ],
+    "base": -0.045,
+    "meshes": 1
+   },
+   "roof-high-left": {
+    "size": [
+     1.141,
+     1.261,
+     1
+    ],
+    "base": -0.071,
+    "meshes": 1
+   },
+   "roof-high-point": {
+    "size": [
+     1.1,
+     1,
+     1.1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-high-right": {
+    "size": [
+     1.141,
+     1.261,
+     1
+    ],
+    "base": -0.071,
+    "meshes": 1
+   },
+   "roof-high-window": {
+    "size": [
+     1.071,
+     1.176,
+     1
+    ],
+    "base": -0.035,
+    "meshes": 1
+   },
+   "roof-high": {
+    "size": [
+     1.071,
+     1.176,
+     1
+    ],
+    "base": -0.035,
+    "meshes": 1
+   },
+   "roof-left": {
+    "size": [
+     1.134,
+     0.721,
+     1
+    ],
+    "base": -0.045,
+    "meshes": 1
+   },
+   "roof-point": {
+    "size": [
+     1.1,
+     0.5,
+     1.1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "roof-right": {
+    "size": [
+     1.134,
+     0.721,
+     1
+    ],
+    "base": -0.045,
+    "meshes": 1
+   },
+   "roof-window": {
+    "size": [
+     1.067,
+     0.648,
+     1
+    ],
+    "base": -0.022,
+    "meshes": 1
+   },
+   "roof": {
+    "size": [
+     1.067,
+     0.648,
+     1
+    ],
+    "base": -0.022,
+    "meshes": 1
+   },
+   "stairs-full-corner-inner": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-full-corner-outer": {
+    "size": [
+     1.02,
+     0.5,
+     1.02
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-full": {
+    "size": [
+     1.02,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-stone-corner": {
+    "size": [
+     1.02,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-stone-handrail": {
+    "size": [
+     1.02,
+     1.445,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-stone-round": {
+    "size": [
+     0.862,
+     1,
+     0.495
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-stone": {
+    "size": [
+     1.02,
+     1,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-wide-stone-handrail": {
+    "size": [
+     1.02,
+     1.445,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-wide-stone": {
+    "size": [
+     1.02,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-wide-wood-handrail": {
+    "size": [
+     1.02,
+     1.445,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-wide-wood": {
+    "size": [
+     1.02,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-wood-handrail": {
+    "size": [
+     1.02,
+     1.445,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-wood": {
+    "size": [
+     1.02,
+     1,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stall-bench": {
+    "size": [
+     0.26,
+     0.226,
+     0.94
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stall-green": {
+    "size": [
+     1,
+     1.237,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stall-red": {
+    "size": [
+     1,
+     1.237,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stall-stool": {
+    "size": [
+     0.26,
+     0.226,
+     0.26
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stall": {
+    "size": [
+     0.65,
+     0.366,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-crooked": {
+    "size": [
+     1.023,
+     2.413,
+     1.023
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-high-crooked": {
+    "size": [
+     1.023,
+     2.973,
+     1.023
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-high-round": {
+    "size": [
+     1.019,
+     2.751,
+     1.019
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-high": {
+    "size": [
+     1.023,
+     2.973,
+     1.023
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree": {
+    "size": [
+     1.023,
+     2.413,
+     1.023
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-arch-top-detail": {
+    "size": [
+     0.16,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-arch-top": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-arch": {
+    "size": [
+     0.1,
+     1,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-block-half": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-block": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-broken": {
+    "size": [
+     0.117,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-detail": {
+    "size": [
+     0.16,
+     1,
+     0.16
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-diagonal-half": {
+    "size": [
+     0.55,
+     1,
+     0.975
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-diagonal": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner-edge": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-corner": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-curved": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-detail-cross": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-detail-diagonal": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-detail-horizontal": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-diagonal": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-door": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-doorway-base": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-doorway-round": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-doorway-square-wide-curved": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-doorway-square-wide": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-doorway-square": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-half": {
+    "size": [
+     0.1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-rounded": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-side": {
+    "size": [
+     0.1,
+     1,
+     0.26
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-slope": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-window-glass": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-window-round": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-window-shutters": {
+    "size": [
+     0.175,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-window-small": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-window-stone": {
+    "size": [
+     0.15,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-arch-top-detail": {
+    "size": [
+     0.16,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-arch-top": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-arch": {
+    "size": [
+     0.1,
+     1,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-block-half": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-block": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-broken": {
+    "size": [
+     0.113,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-corner-diagonal-half": {
+    "size": [
+     0.55,
+     1,
+     0.975
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-corner-diagonal": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-corner-edge": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-corner": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-curved": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-detail-cross": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-detail-diagonal": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-detail-horizontal": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-diagonal": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-door": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-wood-doorway-base": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-doorway-round": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-doorway-square-wide-curved": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-doorway-square-wide": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-doorway-square": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-half": {
+    "size": [
+     0.1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-rounded": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-side": {
+    "size": [
+     0.1,
+     1,
+     0.26
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-slope": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-window-glass": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-window-round": {
+    "size": [
+     0.2,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-window-shutters": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-window-small": {
+    "size": [
+     0.2,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood-window-stone": {
+    "size": [
+     0.15,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-wood": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall": {
+    "size": [
+     0.1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "watermill-wide": {
+    "size": [
+     1.05,
+     1.799,
+     1.799
+    ],
+    "base": -0.9,
+    "meshes": 1
+   },
+   "watermill": {
+    "size": [
+     0.85,
+     1.799,
+     1.799
+    ],
+    "base": -0.9,
+    "meshes": 1
+   },
+   "wheel": {
+    "size": [
+     0.238,
+     0.483,
+     0.468
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "windmill": {
+    "size": [
+     0.471,
+     3.113,
+     3.113
+    ],
+    "base": -1.557,
+    "meshes": 1
+   }
+  },
+  "nature": {
+   "bed": {
+    "size": [
+     0.335,
+     0.274,
+     0.747
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "bed_floor": {
+    "size": [
+     0.32,
+     0.092,
+     0.747
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "bridge_center_stone": {
+    "size": [
+     1,
+     0.3,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_center_stoneRound": {
+    "size": [
+     1,
+     0.2,
+     1
+    ],
+    "base": 0.1,
+    "meshes": 2
+   },
+   "bridge_center_wood": {
+    "size": [
+     1,
+     0.3,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "bridge_center_woodRound": {
+    "size": [
+     1,
+     0.2,
+     1
+    ],
+    "base": 0.1,
+    "meshes": 4
+   },
+   "bridge_side_stone": {
+    "size": [
+     1.02,
+     0.4,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_side_stoneRound": {
+    "size": [
+     1.02,
+     0.45,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_side_wood": {
+    "size": [
+     1.02,
+     0.4,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "bridge_side_woodRound": {
+    "size": [
+     1.02,
+     0.45,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 4
+   },
+   "bridge_stone": {
+    "size": [
+     1.04,
+     0.4,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_stoneNarrow": {
+    "size": [
+     1.04,
+     0.35,
+     0.84
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_stoneRound": {
+    "size": [
+     1.04,
+     0.45,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_stoneRoundNarrow": {
+    "size": [
+     1.04,
+     0.4,
+     0.84
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "bridge_wood": {
+    "size": [
+     1.04,
+     0.4,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "bridge_woodNarrow": {
+    "size": [
+     1.04,
+     0.35,
+     0.84
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "bridge_woodRound": {
+    "size": [
+     1.04,
+     0.45,
+     1.04
+    ],
+    "base": -0.05,
+    "meshes": 4
+   },
+   "bridge_woodRoundNarrow": {
+    "size": [
+     1.04,
+     0.4,
+     0.84
+    ],
+    "base": -0.05,
+    "meshes": 4
+   },
+   "cactus_short": {
+    "size": [
+     0.342,
+     0.533,
+     0.297
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cactus_tall": {
+    "size": [
+     0.396,
+     0.75,
+     0.339
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "campfire_bricks": {
+    "size": [
+     0.469,
+     0.068,
+     0.469
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "campfire_logs": {
+    "size": [
+     0.292,
+     0.063,
+     0.292
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "campfire_planks": {
+    "size": [
+     0.35,
+     0.04,
+     0.35
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "campfire_stones": {
+    "size": [
+     0.541,
+     0.078,
+     0.516
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "canoe": {
+    "size": [
+     0.3,
+     0.183,
+     1.15
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "canoe_paddle": {
+    "size": [
+     0.077,
+     0.036,
+     0.59
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_blockCave_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockCave_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockDiagonal_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockDiagonal_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockHalf_rock": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockHalf_stone": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockQuarter_rock": {
+    "size": [
+     1,
+     0.25,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockQuarter_stone": {
+    "size": [
+     1,
+     0.25,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockSlopeHalfWalls_rock": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockSlopeHalfWalls_stone": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockSlopeWalls_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockSlopeWalls_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockSlope_rock": {
+    "size": [
+     1.2,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_blockSlope_stone": {
+    "size": [
+     1.2,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_block_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_block_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_cave_rock": {
+    "size": [
+     1,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cave_stone": {
+    "size": [
+     1,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerInnerLarge_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerInnerLarge_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerInnerTop_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_cornerInnerTop_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_cornerInner_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerInner_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerLarge_rock": {
+    "size": [
+     0.419,
+     1,
+     0.418
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerLarge_stone": {
+    "size": [
+     0.419,
+     1,
+     0.418
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_cornerTop_rock": {
+    "size": [
+     0.269,
+     1,
+     0.268
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_cornerTop_stone": {
+    "size": [
+     0.269,
+     1,
+     0.268
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_corner_rock": {
+    "size": [
+     0.168,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_corner_stone": {
+    "size": [
+     0.168,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_diagonal_rock": {
+    "size": [
+     1.168,
+     1,
+     1.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_diagonal_stone": {
+    "size": [
+     1.168,
+     1,
+     1.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_halfCornerInner_rock": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "cliff_halfCornerInner_stone": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "cliff_halfCorner_rock": {
+    "size": [
+     0.419,
+     0.5,
+     0.419
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_halfCorner_stone": {
+    "size": [
+     0.419,
+     0.5,
+     0.419
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_half_rock": {
+    "size": [
+     1,
+     0.5,
+     0.419
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_half_stone": {
+    "size": [
+     1,
+     0.5,
+     0.419
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_large_rock": {
+    "size": [
+     1,
+     1,
+     0.419
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_large_stone": {
+    "size": [
+     1,
+     1,
+     0.419
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_rock": {
+    "size": [
+     1,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_stepsCornerInner_rock": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_stepsCornerInner_stone": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_stepsCorner_rock": {
+    "size": [
+     1.05,
+     1,
+     1.05
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_stepsCorner_stone": {
+    "size": [
+     1.05,
+     1,
+     1.05
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_steps_rock": {
+    "size": [
+     1,
+     1,
+     1.05
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_steps_stone": {
+    "size": [
+     1,
+     1,
+     1.05
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_stone": {
+    "size": [
+     1,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "cliff_topDiagonal_rock": {
+    "size": [
+     1.269,
+     1,
+     1.269
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_topDiagonal_stone": {
+    "size": [
+     1.269,
+     1,
+     1.269
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_top_rock": {
+    "size": [
+     1,
+     1,
+     0.269
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_top_stone": {
+    "size": [
+     1,
+     1,
+     0.269
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "cliff_waterfallTop_rock": {
+    "size": [
+     1,
+     1,
+     0.269
+    ],
+    "base": -0.05,
+    "meshes": 5
+   },
+   "cliff_waterfallTop_stone": {
+    "size": [
+     1,
+     1,
+     0.269
+    ],
+    "base": -0.05,
+    "meshes": 6
+   },
+   "cliff_waterfall_rock": {
+    "size": [
+     1,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "cliff_waterfall_stone": {
+    "size": [
+     1,
+     1,
+     0.168
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crop_carrot": {
+    "size": [
+     0.343,
+     0.619,
+     0.343
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crop_melon": {
+    "size": [
+     0.418,
+     0.348,
+     0.362
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "crop_pumpkin": {
+    "size": [
+     0.441,
+     0.334,
+     0.452
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crop_turnip": {
+    "size": [
+     0.343,
+     0.661,
+     0.343
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_bambooStageA": {
+    "size": [
+     0.34,
+     0.549,
+     0.308
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_bambooStageB": {
+    "size": [
+     0.34,
+     0.89,
+     0.308
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_cornStageA": {
+    "size": [
+     0.304,
+     0.5,
+     0.304
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_cornStageB": {
+    "size": [
+     0.304,
+     1,
+     0.304
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_cornStageC": {
+    "size": [
+     0.304,
+     1.25,
+     0.304
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_cornStageD": {
+    "size": [
+     0.442,
+     1.25,
+     0.442
+    ],
+    "base": -0.05,
+    "meshes": 9
+   },
+   "crops_dirtDoubleRow": {
+    "size": [
+     1,
+     0.05,
+     0.938
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_dirtDoubleRowCorner": {
+    "size": [
+     0.938,
+     0.05,
+     0.938
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_dirtDoubleRowEnd": {
+    "size": [
+     0.6,
+     0.05,
+     0.938
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_dirtRow": {
+    "size": [
+     1,
+     0.05,
+     0.62
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_dirtRowCorner": {
+    "size": [
+     0.779,
+     0.05,
+     0.779
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_dirtRowEnd": {
+    "size": [
+     0.6,
+     0.05,
+     0.62
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_dirtSingle": {
+    "size": [
+     0.4,
+     0.1,
+     0.346
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "crops_leafsStageA": {
+    "size": [
+     0.389,
+     0.427,
+     0.389
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_leafsStageB": {
+    "size": [
+     0.389,
+     0.677,
+     0.389
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_wheatStageA": {
+    "size": [
+     0.54,
+     0.335,
+     0.447
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "crops_wheatStageB": {
+    "size": [
+     0.54,
+     0.535,
+     0.447
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "fence_bend": {
+    "size": [
+     1,
+     0.345,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "fence_bendCenter": {
+    "size": [
+     1,
+     0.345,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "fence_corner": {
+    "size": [
+     1,
+     0.345,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "fence_gate": {
+    "size": [
+     1,
+     0.345,
+     0.07
+    ],
+    "base": -0.05,
+    "meshes": 5
+   },
+   "fence_planks": {
+    "size": [
+     1,
+     0.345,
+     0.096
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "fence_planksDouble": {
+    "size": [
+     1,
+     0.345,
+     0.06
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "fence_simple": {
+    "size": [
+     1,
+     0.345,
+     0.07
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "fence_simpleCenter": {
+    "size": [
+     1,
+     0.345,
+     0.07
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "fence_simpleDiagonal": {
+    "size": [
+     1,
+     0.345,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "fence_simpleDiagonalCenter": {
+    "size": [
+     1,
+     0.345,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "fence_simpleHigh": {
+    "size": [
+     1.041,
+     0.345,
+     0.111
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "fence_simpleLow": {
+    "size": [
+     1.041,
+     0.195,
+     0.111
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "flower_purpleA": {
+    "size": [
+     0.159,
+     0.242,
+     0.181
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "flower_purpleB": {
+    "size": [
+     0.207,
+     0.208,
+     0.239
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "flower_purpleC": {
+    "size": [
+     0.181,
+     0.183,
+     0.181
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "flower_redA": {
+    "size": [
+     0.159,
+     0.293,
+     0.181
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "flower_redB": {
+    "size": [
+     0.207,
+     0.258,
+     0.239
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "flower_redC": {
+    "size": [
+     0.181,
+     0.232,
+     0.181
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "flower_yellowA": {
+    "size": [
+     0.159,
+     0.193,
+     0.181
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "flower_yellowB": {
+    "size": [
+     0.207,
+     0.159,
+     0.239
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "flower_yellowC": {
+    "size": [
+     0.181,
+     0.133,
+     0.181
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "grass": {
+    "size": [
+     0.381,
+     0.254,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "grass_large": {
+    "size": [
+     0.409,
+     0.254,
+     0.408
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "grass_leafs": {
+    "size": [
+     0.234,
+     0.143,
+     0.257
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "grass_leafsLarge": {
+    "size": [
+     0.476,
+     0.143,
+     0.487
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "ground_grass": {
+    "size": [
+     1,
+     0,
+     1
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "ground_pathBend": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathBendBank": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathCorner": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathCornerSmall": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathCross": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathEnd": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathEndClosed": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathOpen": {
+    "size": [
+     1,
+     0,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 1
+   },
+   "ground_pathRocks": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathSide": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathSideOpen": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathSplit": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathStraight": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_pathTile": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 3
+   },
+   "ground_riverBend": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverBendBank": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverCorner": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverCornerSmall": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverCross": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverEnd": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverEndClosed": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverOpen": {
+    "size": [
+     1,
+     0,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 1
+   },
+   "ground_riverRocks": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 5
+   },
+   "ground_riverSide": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverSideOpen": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverSplit": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverStraight": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "ground_riverTile": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": -0.1,
+    "meshes": 4
+   },
+   "hanging_moss": {
+    "size": [
+     0.16,
+     0.478,
+     0.035
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "lily_large": {
+    "size": [
+     0.272,
+     0.098,
+     0.314
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "lily_small": {
+    "size": [
+     0.189,
+     0.04,
+     0.218
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "log": {
+    "size": [
+     0.234,
+     0.173,
+     0.71
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "log_large": {
+    "size": [
+     1,
+     0.417,
+     0.549
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "log_stack": {
+    "size": [
+     0.425,
+     0.346,
+     0.71
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "log_stackLarge": {
+    "size": [
+     0.634,
+     0.346,
+     0.71
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "mushroom_red": {
+    "size": [
+     0.174,
+     0.203,
+     0.201
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "mushroom_redGroup": {
+    "size": [
+     0.27,
+     0.25,
+     0.254
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "mushroom_redTall": {
+    "size": [
+     0.124,
+     0.25,
+     0.143
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "mushroom_tan": {
+    "size": [
+     0.191,
+     0.154,
+     0.221
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "mushroom_tanGroup": {
+    "size": [
+     0.27,
+     0.25,
+     0.254
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "mushroom_tanTall": {
+    "size": [
+     0.124,
+     0.25,
+     0.143
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "path_stone": {
+    "size": [
+     1,
+     0.05,
+     0.577
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "path_stoneCircle": {
+    "size": [
+     0.932,
+     0.05,
+     0.877
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "path_stoneCorner": {
+    "size": [
+     0.738,
+     0.05,
+     0.778
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "path_stoneEnd": {
+    "size": [
+     0.618,
+     0.05,
+     0.571
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "path_wood": {
+    "size": [
+     1,
+     0.05,
+     0.514
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "path_woodCorner": {
+    "size": [
+     0.75,
+     0.05,
+     0.75
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "path_woodEnd": {
+    "size": [
+     0.615,
+     0.05,
+     0.514
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "plant_bush": {
+    "size": [
+     0.396,
+     0.244,
+     0.396
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_bushDetailed": {
+    "size": [
+     0.603,
+     0.36,
+     0.603
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_bushLarge": {
+    "size": [
+     0.374,
+     0.243,
+     0.336
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_bushLargeTriangle": {
+    "size": [
+     0.408,
+     0.169,
+     0.471
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_bushSmall": {
+    "size": [
+     0.383,
+     0.207,
+     0.336
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_bushTriangle": {
+    "size": [
+     0.364,
+     0.296,
+     0.414
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_flatShort": {
+    "size": [
+     0.278,
+     0.235,
+     0.278
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "plant_flatTall": {
+    "size": [
+     0.272,
+     0.284,
+     0.272
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "platform_beach": {
+    "size": [
+     0.893,
+     0.082,
+     0.724
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "platform_grass": {
+    "size": [
+     0.893,
+     0.082,
+     0.724
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "platform_stone": {
+    "size": [
+     0.893,
+     0.082,
+     0.724
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "pot_large": {
+    "size": [
+     0.564,
+     0.2,
+     0.488
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "pot_small": {
+    "size": [
+     0.323,
+     0.268,
+     0.28
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_largeA": {
+    "size": [
+     0.785,
+     0.26,
+     1.015
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_largeB": {
+    "size": [
+     0.767,
+     0.43,
+     1.015
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_largeC": {
+    "size": [
+     1.064,
+     0.321,
+     1.016
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_largeD": {
+    "size": [
+     1.069,
+     0.568,
+     1.03
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_largeE": {
+    "size": [
+     1.095,
+     0.292,
+     0.92
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_largeF": {
+    "size": [
+     1.095,
+     0.479,
+     0.899
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_smallA": {
+    "size": [
+     0.361,
+     0.191,
+     0.361
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallB": {
+    "size": [
+     0.361,
+     0.177,
+     0.361
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallC": {
+    "size": [
+     0.361,
+     0.123,
+     0.361
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallD": {
+    "size": [
+     0.426,
+     0.231,
+     0.369
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallE": {
+    "size": [
+     0.361,
+     0.256,
+     0.312
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallF": {
+    "size": [
+     0.354,
+     0.245,
+     0.306
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallFlatA": {
+    "size": [
+     0.496,
+     0.065,
+     0.43
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallFlatB": {
+    "size": [
+     0.43,
+     0.065,
+     0.402
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallFlatC": {
+    "size": [
+     0.47,
+     0.065,
+     0.36
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallG": {
+    "size": [
+     0.594,
+     0.245,
+     0.686
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallH": {
+    "size": [
+     0.462,
+     0.407,
+     0.462
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallI": {
+    "size": [
+     0.358,
+     0.278,
+     0.414
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallTopA": {
+    "size": [
+     0.488,
+     0.22,
+     0.489
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_smallTopB": {
+    "size": [
+     0.622,
+     0.28,
+     0.646
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "rock_tallA": {
+    "size": [
+     0.983,
+     0.996,
+     0.683
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallB": {
+    "size": [
+     0.765,
+     0.884,
+     0.77
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallC": {
+    "size": [
+     0.456,
+     0.783,
+     0.437
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallD": {
+    "size": [
+     0.443,
+     0.772,
+     0.461
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallE": {
+    "size": [
+     0.456,
+     0.444,
+     0.527
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallF": {
+    "size": [
+     0.444,
+     0.574,
+     0.512
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallG": {
+    "size": [
+     0.425,
+     0.783,
+     0.491
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallH": {
+    "size": [
+     0.575,
+     0.711,
+     0.664
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallI": {
+    "size": [
+     0.456,
+     0.812,
+     0.464
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "rock_tallJ": {
+    "size": [
+     0.488,
+     0.62,
+     0.538
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "sign": {
+    "size": [
+     0.3,
+     0.409,
+     0.07
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "statue_block": {
+    "size": [
+     0.4,
+     0.4,
+     0.4
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "statue_column": {
+    "size": [
+     0.3,
+     1,
+     0.3
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "statue_columnDamaged": {
+    "size": [
+     0.3,
+     0.7,
+     0.3
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "statue_head": {
+    "size": [
+     0.726,
+     1,
+     0.554
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "statue_obelisk": {
+    "size": [
+     0.307,
+     0.875,
+     0.307
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "statue_ring": {
+    "size": [
+     0.6,
+     0.796,
+     0.4
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_largeA": {
+    "size": [
+     0.785,
+     0.26,
+     1.015
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_largeB": {
+    "size": [
+     0.767,
+     0.43,
+     1.015
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_largeC": {
+    "size": [
+     1.064,
+     0.321,
+     1.016
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_largeD": {
+    "size": [
+     1.069,
+     0.568,
+     1.03
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_largeE": {
+    "size": [
+     1.095,
+     0.292,
+     0.92
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_largeF": {
+    "size": [
+     1.095,
+     0.479,
+     0.899
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_smallA": {
+    "size": [
+     0.361,
+     0.191,
+     0.361
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallB": {
+    "size": [
+     0.361,
+     0.177,
+     0.361
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallC": {
+    "size": [
+     0.361,
+     0.123,
+     0.361
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallD": {
+    "size": [
+     0.426,
+     0.231,
+     0.369
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallE": {
+    "size": [
+     0.361,
+     0.256,
+     0.312
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallF": {
+    "size": [
+     0.354,
+     0.245,
+     0.306
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallFlatA": {
+    "size": [
+     0.496,
+     0.065,
+     0.43
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallFlatB": {
+    "size": [
+     0.43,
+     0.065,
+     0.402
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallFlatC": {
+    "size": [
+     0.47,
+     0.065,
+     0.36
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallG": {
+    "size": [
+     0.594,
+     0.245,
+     0.686
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallH": {
+    "size": [
+     0.462,
+     0.407,
+     0.462
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallI": {
+    "size": [
+     0.358,
+     0.278,
+     0.414
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallTopA": {
+    "size": [
+     0.488,
+     0.22,
+     0.489
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_smallTopB": {
+    "size": [
+     0.622,
+     0.28,
+     0.646
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stone_tallA": {
+    "size": [
+     0.983,
+     0.996,
+     0.683
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallB": {
+    "size": [
+     0.765,
+     0.884,
+     0.77
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallC": {
+    "size": [
+     0.456,
+     0.783,
+     0.437
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallD": {
+    "size": [
+     0.443,
+     0.772,
+     0.461
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallE": {
+    "size": [
+     0.456,
+     0.444,
+     0.527
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallF": {
+    "size": [
+     0.444,
+     0.574,
+     0.512
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallG": {
+    "size": [
+     0.425,
+     0.783,
+     0.491
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallH": {
+    "size": [
+     0.575,
+     0.711,
+     0.664
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallI": {
+    "size": [
+     0.456,
+     0.812,
+     0.464
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stone_tallJ": {
+    "size": [
+     0.488,
+     0.62,
+     0.538
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stump_old": {
+    "size": [
+     0.357,
+     0.266,
+     0.371
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stump_oldTall": {
+    "size": [
+     0.357,
+     0.667,
+     0.371
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "stump_round": {
+    "size": [
+     0.321,
+     0.206,
+     0.371
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stump_roundDetailed": {
+    "size": [
+     0.357,
+     0.206,
+     0.371
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stump_square": {
+    "size": [
+     0.36,
+     0.3,
+     0.3
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stump_squareDetailed": {
+    "size": [
+     0.44,
+     0.2,
+     0.44
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "stump_squareDetailedWide": {
+    "size": [
+     0.64,
+     0.2,
+     0.64
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tent_detailedClosed": {
+    "size": [
+     0.875,
+     0.561,
+     0.636
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tent_detailedOpen": {
+    "size": [
+     0.875,
+     0.561,
+     0.666
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tent_smallClosed": {
+    "size": [
+     0.548,
+     0.561,
+     0.636
+    ],
+    "base": -0.05,
+    "meshes": 4
+   },
+   "tent_smallOpen": {
+    "size": [
+     0.548,
+     0.561,
+     0.666
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_blocks": {
+    "size": [
+     0.6,
+     1.185,
+     0.6
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_blocks_dark": {
+    "size": [
+     0.6,
+     1.185,
+     0.6
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_blocks_fall": {
+    "size": [
+     0.6,
+     1.185,
+     0.6
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_cone": {
+    "size": [
+     0.53,
+     1.43,
+     0.53
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_cone_dark": {
+    "size": [
+     0.53,
+     1.43,
+     0.53
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_cone_fall": {
+    "size": [
+     0.53,
+     1.43,
+     0.53
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_default": {
+    "size": [
+     0.755,
+     1.708,
+     0.654
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_default_dark": {
+    "size": [
+     0.755,
+     1.708,
+     0.654
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_default_fall": {
+    "size": [
+     0.755,
+     1.708,
+     0.654
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_detailed": {
+    "size": [
+     0.847,
+     1.332,
+     0.762
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_detailed_dark": {
+    "size": [
+     0.847,
+     1.332,
+     0.762
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_detailed_fall": {
+    "size": [
+     0.847,
+     1.332,
+     0.762
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_fat": {
+    "size": [
+     0.755,
+     1.15,
+     0.654
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_fat_darkh": {
+    "size": [
+     0.755,
+     1.15,
+     0.654
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_fat_fall": {
+    "size": [
+     0.755,
+     1.15,
+     0.654
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_oak": {
+    "size": [
+     0.641,
+     1.226,
+     0.74
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_oak_dark": {
+    "size": [
+     0.641,
+     1.226,
+     0.74
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_oak_fall": {
+    "size": [
+     0.641,
+     1.226,
+     0.74
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_palm": {
+    "size": [
+     0.935,
+     1.515,
+     1.013
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_palmBend": {
+    "size": [
+     0.935,
+     1.38,
+     1.013
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_palmDetailedShort": {
+    "size": [
+     1.463,
+     1.124,
+     1.463
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_palmDetailedTall": {
+    "size": [
+     1.463,
+     1.423,
+     1.463
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_palmShort": {
+    "size": [
+     1.034,
+     1.056,
+     1.034
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_palmTall": {
+    "size": [
+     1.034,
+     1.356,
+     1.034
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineDefaultA": {
+    "size": [
+     0.532,
+     1.546,
+     0.532
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineDefaultB": {
+    "size": [
+     0.532,
+     1.546,
+     0.532
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineGroundA": {
+    "size": [
+     0.48,
+     0.914,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "tree_pineGroundB": {
+    "size": [
+     0.48,
+     1.042,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 1
+   },
+   "tree_pineRoundA": {
+    "size": [
+     0.617,
+     1.366,
+     0.712
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineRoundB": {
+    "size": [
+     0.532,
+     1.196,
+     0.613
+    ],
+    "base": -0.05,
+    "meshes": 3
+   },
+   "tree_pineRoundC": {
+    "size": [
+     0.48,
+     1.253,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineRoundD": {
+    "size": [
+     0.48,
+     1.082,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineRoundE": {
+    "size": [
+     0.532,
+     1.255,
+     0.532
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineRoundF": {
+    "size": [
+     0.532,
+     1.255,
+     0.532
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineSmallA": {
+    "size": [
+     0.5,
+     0.967,
+     0.5
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineSmallB": {
+    "size": [
+     0.386,
+     1.009,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineSmallC": {
+    "size": [
+     0.386,
+     1.123,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineSmallD": {
+    "size": [
+     0.357,
+     0.956,
+     0.357
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallA": {
+    "size": [
+     0.386,
+     1.53,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallA_detailed": {
+    "size": [
+     0.386,
+     1.53,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallB": {
+    "size": [
+     0.386,
+     1.935,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallB_detailed": {
+    "size": [
+     0.386,
+     1.935,
+     0.392
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallC": {
+    "size": [
+     0.48,
+     1.67,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallC_detailed": {
+    "size": [
+     0.48,
+     1.67,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallD": {
+    "size": [
+     0.48,
+     2.075,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_pineTallD_detailed": {
+    "size": [
+     0.48,
+     2.075,
+     0.555
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_plateau": {
+    "size": [
+     0.612,
+     1.249,
+     0.655
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_plateau_dark": {
+    "size": [
+     0.612,
+     1.249,
+     0.655
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_plateau_fall": {
+    "size": [
+     0.612,
+     1.249,
+     0.655
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_simple": {
+    "size": [
+     0.355,
+     1.519,
+     0.409
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_simple_dark": {
+    "size": [
+     0.355,
+     1.519,
+     0.409
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_simple_fall": {
+    "size": [
+     0.355,
+     1.519,
+     0.409
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_small": {
+    "size": [
+     0.355,
+     1.11,
+     0.409
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_small_dark": {
+    "size": [
+     0.355,
+     1.11,
+     0.409
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_small_fall": {
+    "size": [
+     0.355,
+     1.11,
+     0.409
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_tall": {
+    "size": [
+     0.4,
+     1.688,
+     0.461
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_tall_dark": {
+    "size": [
+     0.4,
+     1.688,
+     0.461
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_tall_fall": {
+    "size": [
+     0.4,
+     1.688,
+     0.461
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_thin": {
+    "size": [
+     0.68,
+     1.49,
+     0.617
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_thin_dark": {
+    "size": [
+     0.68,
+     1.49,
+     0.617
+    ],
+    "base": -0.05,
+    "meshes": 2
+   },
+   "tree_thin_fall": {
+    "size": [
+     0.68,
+     1.49,
+     0.617
+    ],
+    "base": -0.05,
+    "meshes": 2
+   }
+  },
+  "retro": {
+   "barrels": {
+    "size": [
+     0.592,
+     0.492,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "battlement-corner-inner": {
+    "size": [
+     1,
+     0.4,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "battlement-corner-outer": {
+    "size": [
+     1,
+     0.4,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "battlement-half": {
+    "size": [
+     0.5,
+     0.4,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "battlement": {
+    "size": [
+     1,
+     0.4,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "bricks": {
+    "size": [
+     0.508,
+     0.172,
+     0.463
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "column-damaged": {
+    "size": [
+     0.2,
+     1,
+     0.2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "column-paint-damaged": {
+    "size": [
+     0.2,
+     0.8,
+     0.2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "column-paint": {
+    "size": [
+     0.2,
+     1,
+     0.2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "column-wood": {
+    "size": [
+     0.3,
+     1,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "column": {
+    "size": [
+     0.2,
+     1,
+     0.2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "detail-barrel": {
+    "size": [
+     0.246,
+     0.3,
+     0.246
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "detail-crate-ropes": {
+    "size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "detail-crate-small": {
+    "size": [
+     0.2,
+     0.2,
+     0.2
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "detail-crate": {
+    "size": [
+     0.3,
+     0.3,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "dock-corner": {
+    "size": [
+     1.1,
+     0.5,
+     1.1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "dock-side": {
+    "size": [
+     1,
+     0.5,
+     1.1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "fence-top": {
+    "size": [
+     1,
+     0.163,
+     0
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "fence-wood": {
+    "size": [
+     1,
+     0.3,
+     0.1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "fence": {
+    "size": [
+     1,
+     0.5,
+     0
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "floor-flat": {
+    "size": [
+     1,
+     0,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "floor-stairs-corner-inner": {
+    "size": [
+     1,
+     0.35,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "floor-stairs-corner-outer": {
+    "size": [
+     1,
+     0.35,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "floor-stairs": {
+    "size": [
+     1,
+     0.35,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "floor-steps-corner-inner": {
+    "size": [
+     1,
+     0.2,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "floor-steps-corner-outer": {
+    "size": [
+     1,
+     0.2,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "floor-steps": {
+    "size": [
+     1,
+     0.2,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "floor": {
+    "size": [
+     1,
+     0.05,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "ladder": {
+    "size": [
+     0.3,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "overhang-fence": {
+    "size": [
+     1,
+     0.3,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "overhang-round-railing": {
+    "size": [
+     1.5,
+     0.4,
+     1.5
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "overhang-round": {
+    "size": [
+     1.5,
+     0.125,
+     1.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "overhang": {
+    "size": [
+     1,
+     0.312,
+     0.3
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "pulley-crate": {
+    "size": [
+     0.367,
+     1,
+     0.734
+    ],
+    "base": -0.95,
+    "meshes": 3
+   },
+   "pulley": {
+    "size": [
+     0.1,
+     1,
+     0.6
+    ],
+    "base": -0.95,
+    "meshes": 2
+   },
+   "roof-corner": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "roof-edge": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "roof-high-side-corner-inner": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "roof-high-side-corner": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "roof-high-side": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "roof-side-corner-inner": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "roof-side-corner": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "roof-side": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "roof": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "stairs-corner": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "stairs-stone": {
+    "size": [
+     0.5,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "stairs-wood": {
+    "size": [
+     0.5,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "structure-cross": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "structure-pole": {
+    "size": [
+     0.1,
+     1,
+     0.1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "structure-poles": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "structure-wall-cross": {
+    "size": [
+     1,
+     1,
+     0.1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "structure-wall": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "structure": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-base": {
+    "size": [
+     1.1,
+     1,
+     1.1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "tower-edge": {
+    "size": [
+     1.2,
+     0.4,
+     1.2
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tower-paint-base": {
+    "size": [
+     1.1,
+     1,
+     1.1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "tower-paint": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "tower-top": {
+    "size": [
+     1.2,
+     0.3,
+     1.2
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "tower": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "tree-large": {
+    "size": [
+     0.919,
+     1.7,
+     0.919
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "tree-shrub": {
+    "size": [
+     0.919,
+     0.7,
+     0.919
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-detail": {
+    "size": [
+     0.2,
+     1,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-door": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-flat-gate": {
+    "size": [
+     1,
+     1,
+     0
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-fortified-door": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "wall-fortified-gate-half": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-fortified-gate": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-fortified-half": {
+    "size": [
+     0.5,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-fortified-paint-door": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "wall-fortified-paint-gate": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "wall-fortified-paint-half": {
+    "size": [
+     0.5,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-fortified-paint-window": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "wall-fortified-paint": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-fortified-window": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 4
+   },
+   "wall-fortified": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-gate-half": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-gate": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-half": {
+    "size": [
+     0.5,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-low": {
+    "size": [
+     1,
+     0.5,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-paint-detail": {
+    "size": [
+     0.2,
+     1,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-paint-door": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-paint-flat": {
+    "size": [
+     1,
+     1,
+     0.1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-paint-gate": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-paint-half": {
+    "size": [
+     0.5,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-paint-window": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-paint": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-pane-door": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-pane-paint-door": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-pane-paint-window": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-pane-paint": {
+    "size": [
+     1,
+     1,
+     0
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-pane-painted-wood-door": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-pane-painted-wood-window": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-pane-painted-wood": {
+    "size": [
+     1,
+     1,
+     0
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-pane-window": {
+    "size": [
+     1,
+     1,
+     0.139
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-pane-wood-door": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-pane-wood-window": {
+    "size": [
+     1,
+     1,
+     0.05
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall-pane-wood": {
+    "size": [
+     1,
+     1,
+     0
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "wall-pane": {
+    "size": [
+     1,
+     1,
+     0
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wall-window": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 3
+   },
+   "wall": {
+    "size": [
+     1,
+     1,
+     1
+    ],
+    "base": 0,
+    "meshes": 2
+   },
+   "water": {
+    "size": [
+     1,
+     0.2,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wood-floor-half": {
+    "size": [
+     1,
+     0.125,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wood-floor-quarter": {
+    "size": [
+     0.5,
+     0.125,
+     0.5
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wood-floor-railing": {
+    "size": [
+     1,
+     0.4,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   },
+   "wood-floor": {
+    "size": [
+     1,
+     0.125,
+     1
+    ],
+    "base": 0,
+    "meshes": 1
+   }
+  }
+ }
+}
