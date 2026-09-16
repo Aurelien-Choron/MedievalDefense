@@ -9,8 +9,7 @@ mouse-driven building, three.js + TypeScript, Kenney CC0 art.
 **Status:** building is playable (milestone P2) and the economy runs (P3) — camps hire
 woodcutters and miners who walk the map, fell trees, and carry their loads back to camp. The towers
 already shoot, so the combat layer of P4 is in place, waiting on attackers to aim at, and
-so is the walking grid they will move on. The siege engine (P4) and polish (P5) come next —
-see `docs/brief.md`, and `CLAUDE.md` for the handover notes.
+so is the walking grid they will move on. The siege engine (P4) and polish (P5) come next.
 
 ## Getting started
 
@@ -114,11 +113,11 @@ it.
 ## Budget
 
 60 fps with 200 units, under 80 draw calls. `npm run smoke` fails if the draw-call budget is
-exceeded, so it can't drift unnoticed. A fresh map sits at 54 today, a complete castle with
-two camps working at 71: every shaft in the air shares one instanced pass, the whole
-workforce shares three, and neither is drawn when there is nothing to draw. `CLAUDE.md`
-has the full table, including the half-second spike a batch of finished buildings still
-causes.
+exceeded, so it can't drift unnoticed. A fresh map sits at 54 today and a complete castle
+with two camps working at 70: every shaft in the air shares one instanced pass, the whole
+workforce shares three, and neither is drawn when there is nothing to draw. A batch of
+buildings finishing in the same frame still spikes to 82 for about half a second, which
+`npm run check:build` reports alongside the settled figure.
 
 ## Docs
 
